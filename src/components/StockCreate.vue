@@ -56,7 +56,7 @@
                     <div class="form-group row justify-content-around py-2">
                       <label class="col-4">Purchase Price</label>
                       <div class="col col-8">
-                        <input v-model="stock.purchase_price" type="date" class="form-control-sm form-control">
+                        <input v-model="stock.purchase_price" type="number" class="form-control-sm form-control">
                       </div>
                     </div>
 
@@ -64,7 +64,7 @@
                     <div class="form-group row justify-content-around py-2">
                       <label class="col-4">Purchase Date</label>
                       <div class="col col-8">
-                        <input v-model="stock.purchase_date" type="number" class="form-control-sm form-control">
+                        <input v-model="stock.purchase_date" type="date" class="form-control-sm form-control">
                       </div>
                     </div>
 
