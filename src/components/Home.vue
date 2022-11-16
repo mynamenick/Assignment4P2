@@ -38,7 +38,7 @@
                 <img :src="require('@/assets/stocks.jpg')" class="card-img-top" style="height: 15rem">
                 <div class="card-body">
                   <h5 class="card-title">Stocks</h5>
-                  <a @click="" class="btn btn-primary">View Details</a>
+                  <a @click="viewStocks" class="btn btn-primary">View Details</a>
                 </div>
               </div>
             </div>
@@ -68,6 +68,11 @@ import router from '../router'
 
       viewInvestments() {
         router.push('/investment-list');
+      },
+
+
+      viewStocks() {
+        router.push('/stock-list');
       },
 
 
